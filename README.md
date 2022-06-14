@@ -1,9 +1,8 @@
 # CMU_11785_Project: Financial Domain Specific Word Embeddings
-<iframe width="560" height="315"
-src="https://www.youtube.com/watch?v=YBrj1EihGn0&ab_channel=BhumikaKapur" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+
+## Overview
+
+For an overview of our team's work please refer to our [video presentation](https://www.youtube.com/watch?v=YBrj1EihGn0&ab_channel=BhumikaKapur) and [its associated slides](./Report/Final_Presentation.pdf) or [refer to our full final report](./Report/11_785_Final_Report.pdf).
 
 ## Introduction
 Working with Akshat Gupta, our team’s project for 11-785 is to generate financial word
@@ -21,8 +20,6 @@ of sentiment classification from 71% to 80% on distil BERT and we improved area 
 the curve (AUC) from 0.8066 to 0.8993. This demonstrates the value of training on domain
 specific knowledge, and future work could expand on hyper parameter tuning with larger
 architectures.
-
-For further explanation of work, please refer to our team's final report.
 
 ## Code
 Our code is seperated broadly into the downstream task and the embedding generation.
